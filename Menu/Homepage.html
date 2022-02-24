@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage: Homepage</title>
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+    <div class="navbar">
+        <!-- ini buat logo yg kiri atas -->
+        <div class="logo">
+            <img src="/DinionMulmed/Assets/Dinion Logo.png" alt="LogoDinion">
+        </div>
+        <!-- buat navbar tengah -->
+        <ul>
+            <li class = "home"><a href="">Home</a></li>     
+            <li><a href="">Menu</a></li>
+            <!--ini buat dropdown -->
+            <li class = "orderList"><a href="">Order List</a>
+                <ul class="dropdown">
+                    <li><a href="">Pending Order</a></li>
+                    <li><a href="">Order Status</a></li>
+                </ul> 
+            </li>     
+            <li><a href="">Review</a></li>  
+        </ul>
+        <!-- ini buat logo bell -->
+        <div class="waiter">
+            <a href="#popup">
+                <img src="/DinionMulmed/Assets/waiterIconFix.png" alt="WaiterIcon">
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- <div class="homepage-title">
+            <h1>HERITAGE</h1>
+        </div>
+        <div class="homepage-desc">
+            World's Finest Heritage
+        </div> -->
+    </div>
+
+    <div class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target = _blank>
+                <img src="/DinionMulmed/Assets/fbFix.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target = _blank>
+                <img src="/DinionMulmed/Assets/igFix.png" alt="">
+            </a>
+            <a href="https://twitter.com/?lang=en" target = _blank>
+                <img src="/DinionMulmed/Assets/twitFix.png" alt="">
+            </a>
+        </div>
+        <div class="trademark">
+            &copy 2020. All Rights Reserved. Heritage
+        </div>
+        <div class="watermark">
+            Powered by Dinion
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <p>Waiter is on the way to your table.</p>
+        <a class="popup-close" href="#closed">X</a>
+    </div>
+
+</body>
+</html> 
